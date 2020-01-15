@@ -9,7 +9,7 @@ pipeline {
 
          stage('MAVEN BUILD') {
             steps {
-                sh '${MAVEN_HOME}/bin/mvn -B package'
+                sh '${MAVEN_HOME}/bin/mvn -B install'
               
             }
             
