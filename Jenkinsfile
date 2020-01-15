@@ -9,7 +9,7 @@ pipeline {
 
          stage('MAVEN BUILD') {
             steps {
-                sh '${MAVEN_HOME}/bin/mvn -XB deploy'
+                sh '${MAVEN_HOME}/bin/mvn -X deploy'
               
             }
             
