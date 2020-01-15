@@ -174,4 +174,14 @@
 
     </plugins>
   </build>
-</project>
+  
+  <repositories>
+    ...
+    <repository>
+        <id>deploymentRepo</id>
+        <name>nexus</name>
+        <url>http://52.14.115.105:8081/repository/sample_repo_hosted/</url>
+    </repository>
+    ...
+</repositories>
+  
