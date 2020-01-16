@@ -14,7 +14,7 @@ pipeline {
             }
             
         }  
-        stage('MAVEN BUILD') {
+        stage('Artifact upload') {
             
             steps {
                 
