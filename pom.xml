@@ -182,7 +182,7 @@
    <distributionManagement>
     <snapshotRepository>
       <id>deploymentRepo</id>
-      <url>http://18.221.242.250:8081/repository/sample_repo_hosted/</url>
+      <url>http://18.191.29.81:8081/repository/sample_repo_hosted/</url>
     </snapshotRepository>
   </distributionManagement>
  
