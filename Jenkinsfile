@@ -11,11 +11,11 @@ pipeline {
             steps {
                 sh '${MAVEN_HOME}/bin/mvn -B install'
               
-				}
+			}
             
-			} 
+		} 
 
 			
-		}
+	}
 
 }
